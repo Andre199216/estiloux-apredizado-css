@@ -1,0 +1,192 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); */
+
+@import url('../fonts/Inconsolata/Inconsolata-Regular.ttf');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+
+}
+
+body {
+    background-color: #efefef;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    color: #858585;
+   
+}
+
+#cabecalho {
+    background-color: #727272;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    display: inline-block;
+    width: 10%;
+    line-height: 30px;
+    vertical-align: middle;
+    /* color: transparent; */
+    /* background-image: linear-gradient(to right, #e0e0e0, #e0e0e0,#a273a2); */
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+
+}
+
+#menu {
+    width: 76%;
+    text-align: right;
+    display: inline-block;
+    /* border: 1px solid white; */
+}
+
+a {
+    display: inline-block;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    /* border: 1px solid white; */
+}
+
+#corpo-documento {
+
+    width: 73%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+#conteudo {
+    display: inline-block;
+    margin-right: -6px;
+    vertical-align: top;
+    width: 70%;
+    background-color: white;
+
+}
+
+#conteudo h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#conteudo p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+#barra-lateral {
+    display: inline-block;
+    margin-right: -6px;
+    margin-left: 3%;
+    width: 27%;
+    vertical-align: top;
+
+
+}
+
+#lapis {
+    width: 100%;
+}
+
+.box-side {
+
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+.box-side h3 {
+
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+
+
+
+
+
+}
+
+.box-side input {
+
+    height: 30px;
+    width: 130px;
+    margin-left: 70px;
+    border: 1px solid #efefef;
+    color: grey;
+
+
+}
+
+
+.box-side button {
+
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: #727272;
+    color: white;
+    border: 1px solid #efefef;
+
+
+}
+
+.box-side ul li{
+
+ margin-left: 30px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ 
+
+
+
+
+}
+.box-side p{
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  line-height: 25px;
+
+
+
+
+}
+
+.box-side #email-novidade{
+ width: 100%;
+ margin-left: 0;
+
+
+
+  
+
+}
